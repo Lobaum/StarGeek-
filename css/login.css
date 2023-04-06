@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Stargeek/img/fundo\ login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cl {
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 7px 9px 11px 13px;
+    border: 3px solid rgb(119, 119, 119);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lg {
+    margin:0 auto;
+    width: 195px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.name {
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(119, 119, 119, 0.516);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+    border: none;
+}
+
+.email {
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(119, 119, 119, 0.516);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+    border: none;
+}
+
+
+.senha {
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(119, 119, 119, 0.516);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.botao2 {
+    background-color: rgb(112, 17, 228);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 3px solid rgb(112, 17, 228);
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease-in-out;
+    margin-top: 30px;
+}
+
+.fps {
+    padding: 10px;
+    width: 300px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-bottom: 30px;
+}
+
+.botao2:hover {
+    background-color:rgb(73, 13, 148);
+    border: 3px solid rgb(73, 13, 148);
+  }
