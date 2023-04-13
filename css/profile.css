@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/Stargeek/img/fundo\ login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lg {
+    margin:0 auto;
+    width: 195px;
+    margin-top: 20px;
+}
+
+.ze {
+    background-image: url(/senai/img/ice-age-sid.gif);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.vlt {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
