@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Stargeek/img/fdl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exit {
+  display: flex;
+}
+.exit > li {
+  align-items: center;
+  display: flex;
+  height: 60px;
+}
+
+.lg {
+    margin: 0 auto;
+    width: 195px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+
+}
+
+.txt > h2 {
+    font-weight: lighter;
+}
+
+.item {
+    background-color: rgb(112, 17, 228);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 3px solid rgb(112, 17, 228);
+    font-weight: 200px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease-in-out;
+    margin: 200px;
+}
+
+.item:hover {
+    background-color:rgb(73, 13, 148);
+    border: 3px solid rgb(73, 13, 148);
+  }
