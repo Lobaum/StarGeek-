@@ -56,3 +56,13 @@ body {
     background-color:rgb(73, 13, 148);
     border: 3px solid rgb(73, 13, 148);
   }
+
+  .estoque {
+    color: red;
+    background-color: black;
+    padding: 10px 10px;
+  }
+
+  .gw {
+    margin-bottom: 150px;
+  }
