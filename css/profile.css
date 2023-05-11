@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(/Stargeek/img/fundo\ login.png);
+    background-image: url(/img/fundo\ login.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .ze {
-    background-image: url(/senai/img/ice-age-sid.gif);
+    background-image: url(/img/ice-age-sid.gif);
     width: 150px;
     height: 150px;
     background-size: cover;
