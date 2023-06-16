@@ -23,7 +23,7 @@ body {
 }
 
 
-.ttl {
+#ttl {
     background-color: rgb(112, 17, 228);
     color: rgb(255, 255, 255);
     padding: 10px 20px;
@@ -32,7 +32,6 @@ body {
     font-weight: 400;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 710px;
     transition: 0.2s;
 }
 
@@ -163,4 +162,63 @@ h2 {
   }
   .str {
     text-align: center;
+  }
+
+  .cl {
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 7px 9px 11px 13px;
+    border: 3px solid rgb(119, 119, 119);
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+#name {
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(119, 119, 119, 0.516);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+    border: none;
+}
+
+#img {
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(119, 119, 119, 0.516);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+
+  #botao2 {
+    background-color: rgb(112, 17, 228);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 3px solid rgb(112, 17, 228);
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+#botao2:hover {
+    background-color:rgb(73, 13, 148);
+    border: 3px solid rgb(73, 13, 148);
   }

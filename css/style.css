@@ -75,8 +75,7 @@ header {
   }
 
   .lg {
-    margin: 0 auto;
-    text-align: center;
+    margin-left: 650px;
 }
 
 .cad {
@@ -114,7 +113,7 @@ header {
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     transition: 0.2s;
-    margin-left: 853px;
+    margin-left: 600px;
 }
 
 .pss {
