@@ -68,7 +68,7 @@ function btnlog(){
         if (usuario == item.login && senha == item.senha) {
             alert (`Bem vindo ao sistema, ${item.name}`)
             encontrou = true
-            window.location.href = 'filmes.html'
+            window.location.href = 'inicio.html'
         }
         
     })
@@ -112,6 +112,9 @@ function veri() {
         document.getElementById('erro').innerHTML  = `<b>Verifique os dados antes de cadastrar`
         erro.style.color = 'red'
         return
+    } else {
+        document.getElementById('erro').innerHTML  = `<b>Cadastro realizado com sucesso`
+        erro.style.color = 'green'
     }
 
     var filme = {
@@ -124,5 +127,16 @@ function veri() {
     document.getElementById("name").value = ''
     document.getElementById("img").value = ''
     document.getElementById("name").focus
+}
 
+function exibirfilmes(){
+    document.getElementById('aprv').innerHTML = ``
+    
+    for (var i in listafilmes){
+        document.getElementById('aprv').innerHTML += 
+        `<div>
+            <img src="${listafilmes[i].link}" width="263px" height="174px"><br>
+            <p>${listafilmes[i].nome}</p>
+        </div>`
+    }
 }
